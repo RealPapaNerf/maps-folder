@@ -1,0 +1,23 @@
+{
+  "format": "flightline-maps/1",
+  "name": "Flightline public maps",
+  "updated": "2026-10-16",
+  "maps": [
+    {
+      "id": "demo-synthetic-ridge",
+      "name": "Demo: synthetic ridge",
+      "region": "Nowhere. This is not a real place.",
+      "path": "demo-synthetic-ridge/",
+      "extentM": [
+        2048,
+        2048
+      ],
+      "cell": 4,
+      "fieldElevM": 1710,
+      "reliefM": 377,
+      "bytes": 823751,
+      "hasColor": false,
+      "attribution": "Synthetic terrain, generated from a formula. It is NOT lidar, it is NOT Cedar City, and it is NOT anywhere on Earth. It is here so the map library and the loader can be tested end to end before any real map exists."
+    }
+  ]
+}
