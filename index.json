@@ -72,6 +72,23 @@
       "attribution": "USGS 3D Elevation Program. USGS National Agriculture Imagery Program (public domain)"
     },
     {
+      "id": "notch-peak",
+      "name": "Notch Peak",
+      "kind": "terrain",
+      "region": "House Range, Utah",
+      "path": "notch-peak/",
+      "extentM": [
+        6144,
+        6144
+      ],
+      "cell": 8,
+      "fieldElevM": 2700.6,
+      "reliefM": 1529,
+      "bytes": 2984979,
+      "hasColor": true,
+      "attribution": "USGS 3D Elevation Program. USGS National Agriculture Imagery Program (public domain)"
+    },
+    {
       "id": "pine-valley",
       "name": "Pine Valley",
       "kind": "terrain",
