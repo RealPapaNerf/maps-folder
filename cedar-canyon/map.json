@@ -1,0 +1,84 @@
+{
+  "format": "flightline-map/1",
+  "id": "cedar-canyon",
+  "name": "Cedar Canyon",
+  "region": "Dixie National Forest, Utah",
+  "attribution": "USGS 3D Elevation Program. USGS National Agriculture Imagery Program (public domain)",
+  "license": "CC0-1.0",
+  "created": "2026-10-19",
+  "builder": "flightline-map-builder 0.1.0",
+  "origin": {
+    "lat": 37.638,
+    "lon": -112.965,
+    "utm": {
+      "zone": 12,
+      "hemisphere": "N",
+      "easting": 326624.93,
+      "northing": 4167467.54
+    },
+    "datumElevM": 2283.83
+  },
+  "grid": {
+    "cols": 769,
+    "rows": 769,
+    "cell": 8,
+    "originNE": [
+      3072,
+      -3072
+    ],
+    "heights": {
+      "file": "height.u16",
+      "type": "uint16le",
+      "scale": 0.01444941912,
+      "offset": 1923.4365,
+      "min": 1923.44,
+      "max": 2870.38
+    },
+    "surface": {
+      "file": "surface.u8",
+      "type": "uint8"
+    }
+  },
+  "color": {
+    "file": "color.jpg",
+    "coverage": "grid"
+  },
+  "fieldElevM": 2283.83,
+  "pilot": {
+    "n": 0,
+    "e": 0
+  },
+  "home": {
+    "n": 0,
+    "e": 0
+  },
+  "starts": [
+    {
+      "id": "pad",
+      "name": "On the pad",
+      "n": 8,
+      "e": 1.5,
+      "yawDeg": 0,
+      "aglM": 0
+    },
+    {
+      "id": "launch",
+      "name": "In your hand",
+      "n": 0.6,
+      "e": 0.45,
+      "yawDeg": 0,
+      "aglM": 1.7
+    },
+    {
+      "id": "air",
+      "name": "In the air, 60 m",
+      "n": -200,
+      "e": 120,
+      "yawDeg": 270,
+      "aglM": 60,
+      "speedMs": 16
+    }
+  ],
+  "obstacles": [],
+  "gates": []
+}

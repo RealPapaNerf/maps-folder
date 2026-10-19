@@ -1,11 +1,46 @@
 {
   "format": "flightline-maps/1",
   "name": "Flightline public maps",
-  "updated": "2026-10-16",
+  "updated": "2026-10-19",
   "maps": [
+    {
+      "id": "bridal-veil-falls",
+      "name": "Bridal Veil Falls",
+      "kind": "terrain",
+      "region": "Provo Canyon, Utah",
+      "path": "bridal-veil-falls/",
+      "extentM": [
+        3072,
+        3072
+      ],
+      "cell": 4,
+      "fieldElevM": 1610.88,
+      "reliefM": 1115,
+      "bytes": 2588006,
+      "hasColor": true,
+      "attribution": "USGS 3D Elevation Program. USGS National Agriculture Imagery Program (public domain)"
+    },
+    {
+      "id": "cedar-canyon",
+      "name": "Cedar Canyon",
+      "kind": "terrain",
+      "region": "Dixie National Forest, Utah",
+      "path": "cedar-canyon/",
+      "extentM": [
+        6144,
+        6144
+      ],
+      "cell": 8,
+      "fieldElevM": 2283.83,
+      "reliefM": 947,
+      "bytes": 3042449,
+      "hasColor": true,
+      "attribution": "USGS 3D Elevation Program. USGS National Agriculture Imagery Program (public domain)"
+    },
     {
       "id": "demo-synthetic-ridge",
       "name": "Demo: synthetic ridge",
+      "kind": "terrain",
       "region": "Nowhere. This is not a real place.",
       "path": "demo-synthetic-ridge/",
       "extentM": [
@@ -18,6 +53,108 @@
       "bytes": 823751,
       "hasColor": false,
       "attribution": "Synthetic terrain, generated from a formula. It is NOT lidar, it is NOT Cedar City, and it is NOT anywhere on Earth. It is here so the map library and the loader can be tested end to end before any real map exists."
+    },
+    {
+      "id": "kolob-canyons",
+      "name": "Kolob Canyons",
+      "kind": "terrain",
+      "region": "Zion National Park, Utah",
+      "path": "kolob-canyons/",
+      "extentM": [
+        6144,
+        6144
+      ],
+      "cell": 8,
+      "fieldElevM": 2362.62,
+      "reliefM": 1034,
+      "bytes": 3009935,
+      "hasColor": true,
+      "attribution": "USGS 3D Elevation Program. USGS National Agriculture Imagery Program (public domain)"
+    },
+    {
+      "id": "pine-valley",
+      "name": "Pine Valley",
+      "kind": "terrain",
+      "region": "Pine Valley Mountains, Utah",
+      "path": "pine-valley/",
+      "extentM": [
+        6144,
+        6144
+      ],
+      "cell": 8,
+      "fieldElevM": 2480.41,
+      "reliefM": 1125,
+      "bytes": 3109969,
+      "hasColor": true,
+      "attribution": "USGS 3D Elevation Program. USGS National Agriculture Imagery Program (public domain)"
+    },
+    {
+      "id": "rock-canyon",
+      "name": "Rock Canyon",
+      "kind": "terrain",
+      "region": "Provo, Utah",
+      "path": "rock-canyon/",
+      "extentM": [
+        3072,
+        3072
+      ],
+      "cell": 4,
+      "fieldElevM": 1791.26,
+      "reliefM": 1027,
+      "bytes": 2794984,
+      "hasColor": true,
+      "attribution": "USGS 3D Elevation Program. USGS National Agriculture Imagery Program (public domain)"
+    },
+    {
+      "id": "timpanogos",
+      "name": "Mount Timpanogos",
+      "kind": "terrain",
+      "region": "Wasatch Range, Utah",
+      "path": "timpanogos/",
+      "extentM": [
+        6144,
+        6144
+      ],
+      "cell": 8,
+      "fieldElevM": 3573.21,
+      "reliefM": 1657,
+      "bytes": 2624638,
+      "hasColor": true,
+      "attribution": "USGS 3D Elevation Program. USGS National Agriculture Imagery Program (public domain)"
+    },
+    {
+      "id": "yosemite-valley",
+      "name": "Yosemite Valley",
+      "kind": "terrain",
+      "region": "Yosemite National Park, California",
+      "path": "yosemite-valley/",
+      "extentM": [
+        6144,
+        6144
+      ],
+      "cell": 8,
+      "fieldElevM": 1208.77,
+      "reliefM": 1377,
+      "bytes": 3172455,
+      "hasColor": true,
+      "attribution": "USGS 3D Elevation Program. USGS National Agriculture Imagery Program (public domain)"
+    },
+    {
+      "id": "zion-canyon",
+      "name": "Zion Canyon",
+      "kind": "terrain",
+      "region": "Zion National Park, Utah",
+      "path": "zion-canyon/",
+      "extentM": [
+        6144,
+        6144
+      ],
+      "cell": 8,
+      "fieldElevM": 1679.82,
+      "reliefM": 926,
+      "bytes": 3092369,
+      "hasColor": true,
+      "attribution": "USGS 3D Elevation Program. USGS National Agriculture Imagery Program (public domain)"
     }
   ]
 }

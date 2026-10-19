@@ -1,0 +1,84 @@
+{
+  "format": "flightline-map/1",
+  "id": "rock-canyon",
+  "name": "Rock Canyon",
+  "region": "Provo, Utah",
+  "attribution": "USGS 3D Elevation Program. USGS National Agriculture Imagery Program (public domain)",
+  "license": "CC0-1.0",
+  "created": "2026-10-19",
+  "builder": "flightline-map-builder 0.1.0",
+  "origin": {
+    "lat": 40.2653,
+    "lon": -111.609,
+    "utm": {
+      "zone": 12,
+      "hemisphere": "N",
+      "easting": 448217.52,
+      "northing": 4457381.47
+    },
+    "datumElevM": 1791.26
+  },
+  "grid": {
+    "cols": 769,
+    "rows": 769,
+    "cell": 4,
+    "originNE": [
+      1536,
+      -1536
+    ],
+    "heights": {
+      "file": "height.u16",
+      "type": "uint16le",
+      "scale": 0.01567530555,
+      "offset": 1582.2131,
+      "min": 1582.21,
+      "max": 2609.49
+    },
+    "surface": {
+      "file": "surface.u8",
+      "type": "uint8"
+    }
+  },
+  "color": {
+    "file": "color.jpg",
+    "coverage": "grid"
+  },
+  "fieldElevM": 1791.26,
+  "pilot": {
+    "n": 0,
+    "e": 0
+  },
+  "home": {
+    "n": 0,
+    "e": 0
+  },
+  "starts": [
+    {
+      "id": "pad",
+      "name": "On the pad",
+      "n": 8,
+      "e": 1.5,
+      "yawDeg": 0,
+      "aglM": 0
+    },
+    {
+      "id": "launch",
+      "name": "In your hand",
+      "n": 0.6,
+      "e": 0.45,
+      "yawDeg": 0,
+      "aglM": 1.7
+    },
+    {
+      "id": "air",
+      "name": "In the air, 60 m",
+      "n": -200,
+      "e": 120,
+      "yawDeg": 270,
+      "aglM": 60,
+      "speedMs": 16
+    }
+  ],
+  "obstacles": [],
+  "gates": []
+}
