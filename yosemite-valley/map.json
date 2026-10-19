@@ -16,7 +16,7 @@
       "easting": 271535.76,
       "northing": 4180688.72
     },
-    "datumElevM": 1208.77
+    "datumElevM": 1213.35
   },
   "grid": {
     "cols": 769,
@@ -43,42 +43,62 @@
     "file": "color.jpg",
     "coverage": "grid"
   },
-  "fieldElevM": 1208.77,
+  "fieldElevM": 1213.35,
   "pilot": {
-    "n": 0,
-    "e": 0
+    "n": -518,
+    "e": 2234
   },
   "home": {
-    "n": 0,
-    "e": 0
+    "n": -518,
+    "e": 2234
   },
   "starts": [
     {
       "id": "pad",
       "name": "On the pad",
-      "n": 8,
-      "e": 1.5,
+      "n": -510,
+      "e": 2235.5,
       "yawDeg": 0,
       "aglM": 0
     },
     {
       "id": "launch",
       "name": "In your hand",
-      "n": 0.6,
-      "e": 0.45,
+      "n": -517.4,
+      "e": 2234.45,
       "yawDeg": 0,
       "aglM": 1.7
     },
     {
       "id": "air",
       "name": "In the air, 60 m",
-      "n": -200,
-      "e": 120,
+      "n": -718,
+      "e": 2354,
       "yawDeg": 270,
       "aglM": 60,
       "speedMs": 16
     }
   ],
   "obstacles": [],
-  "gates": []
+  "gates": [],
+  "sites": [
+    {
+      "id": "valley-floor-west",
+      "name": "Valley floor, west",
+      "n": -2406,
+      "e": -2502
+    },
+    {
+      "id": "north-rim",
+      "name": "North rim",
+      "n": 1978,
+      "e": 314
+    },
+    {
+      "id": "northeast-rim",
+      "name": "Northeast rim",
+      "n": 2330,
+      "e": 1882
+    }
+  ]
 }

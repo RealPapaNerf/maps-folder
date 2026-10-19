@@ -16,7 +16,7 @@
       "easting": 326624.93,
       "northing": 4167467.54
     },
-    "datumElevM": 2283.83
+    "datumElevM": 2760.71
   },
   "grid": {
     "cols": 769,
@@ -43,42 +43,62 @@
     "file": "color.jpg",
     "coverage": "grid"
   },
-  "fieldElevM": 2283.83,
+  "fieldElevM": 2760.71,
   "pilot": {
-    "n": 0,
-    "e": 0
+    "n": -2726,
+    "e": -1862
   },
   "home": {
-    "n": 0,
-    "e": 0
+    "n": -2726,
+    "e": -1862
   },
   "starts": [
     {
       "id": "pad",
       "name": "On the pad",
-      "n": 8,
-      "e": 1.5,
+      "n": -2718,
+      "e": -1860.5,
       "yawDeg": 0,
       "aglM": 0
     },
     {
       "id": "launch",
       "name": "In your hand",
-      "n": 0.6,
-      "e": 0.45,
+      "n": -2725.4,
+      "e": -1861.55,
       "yawDeg": 0,
       "aglM": 1.7
     },
     {
       "id": "air",
       "name": "In the air, 60 m",
-      "n": -200,
-      "e": 120,
+      "n": -2926,
+      "e": -1742,
       "yawDeg": 270,
       "aglM": 60,
       "speedMs": 16
     }
   ],
   "obstacles": [],
-  "gates": []
+  "gates": [],
+  "sites": [
+    {
+      "id": "canyon-floor",
+      "name": "Canyon floor",
+      "n": 1082,
+      "e": -2758
+    },
+    {
+      "id": "west-bench",
+      "name": "West bench",
+      "n": -422,
+      "e": -2406
+    },
+    {
+      "id": "northwest-bench",
+      "name": "Northwest bench",
+      "n": 2778,
+      "e": -1158
+    }
+  ]
 }

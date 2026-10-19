@@ -16,7 +16,7 @@
       "easting": 448217.52,
       "northing": 4457381.47
     },
-    "datumElevM": 1791.26
+    "datumElevM": 2247.37
   },
   "grid": {
     "cols": 769,
@@ -43,42 +43,56 @@
     "file": "color.jpg",
     "coverage": "grid"
   },
-  "fieldElevM": 1791.26,
+  "fieldElevM": 2247.37,
   "pilot": {
-    "n": 0,
-    "e": 0
+    "n": 1178,
+    "e": -966
   },
   "home": {
-    "n": 0,
-    "e": 0
+    "n": 1178,
+    "e": -966
   },
   "starts": [
     {
       "id": "pad",
       "name": "On the pad",
-      "n": 8,
-      "e": 1.5,
+      "n": 1186,
+      "e": -964.5,
       "yawDeg": 0,
       "aglM": 0
     },
     {
       "id": "launch",
       "name": "In your hand",
-      "n": 0.6,
-      "e": 0.45,
+      "n": 1178.6,
+      "e": -965.55,
       "yawDeg": 0,
       "aglM": 1.7
     },
     {
       "id": "air",
       "name": "In the air, 60 m",
-      "n": -200,
-      "e": 120,
+      "n": 978,
+      "e": -846,
       "yawDeg": 270,
       "aglM": 60,
       "speedMs": 16
     }
   ],
   "obstacles": [],
-  "gates": []
+  "gates": [],
+  "sites": [
+    {
+      "id": "canyon-floor",
+      "name": "Canyon floor",
+      "n": 442,
+      "e": 602
+    },
+    {
+      "id": "south-ridge",
+      "name": "South ridge",
+      "n": -1158,
+      "e": -134
+    }
+  ]
 }

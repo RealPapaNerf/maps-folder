@@ -16,7 +16,7 @@
       "easting": 445173,
       "northing": 4471322.85
     },
-    "datumElevM": 3573.21
+    "datumElevM": 3133.02
   },
   "grid": {
     "cols": 769,
@@ -43,42 +43,62 @@
     "file": "color.jpg",
     "coverage": "grid"
   },
-  "fieldElevM": 3573.21,
+  "fieldElevM": 3133.02,
   "pilot": {
-    "n": 0,
-    "e": 0
+    "n": 1370,
+    "e": 26
   },
   "home": {
-    "n": 0,
-    "e": 0
+    "n": 1370,
+    "e": 26
   },
   "starts": [
     {
       "id": "pad",
       "name": "On the pad",
-      "n": 8,
-      "e": 1.5,
+      "n": 1378,
+      "e": 27.5,
       "yawDeg": 0,
       "aglM": 0
     },
     {
       "id": "launch",
       "name": "In your hand",
-      "n": 0.6,
-      "e": 0.45,
+      "n": 1370.6,
+      "e": 26.45,
       "yawDeg": 0,
       "aglM": 1.7
     },
     {
       "id": "air",
       "name": "In the air, 60 m",
-      "n": -200,
-      "e": 120,
+      "n": 1170,
+      "e": 146,
       "yawDeg": 270,
       "aglM": 60,
       "speedMs": 16
     }
   ],
   "obstacles": [],
-  "gates": []
+  "gates": [],
+  "sites": [
+    {
+      "id": "lower-slopes",
+      "name": "Lower slopes",
+      "n": -1350,
+      "e": -2630
+    },
+    {
+      "id": "west-bench",
+      "name": "West bench",
+      "n": -6,
+      "e": -2758
+    },
+    {
+      "id": "summit-ridge",
+      "name": "Summit ridge",
+      "n": 570,
+      "e": 314
+    }
+  ]
 }

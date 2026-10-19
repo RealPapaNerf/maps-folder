@@ -16,7 +16,7 @@
       "easting": 279480,
       "northing": 4137718.34
     },
-    "datumElevM": 2480.41
+    "datumElevM": 2937.51
   },
   "grid": {
     "cols": 769,
@@ -43,42 +43,62 @@
     "file": "color.jpg",
     "coverage": "grid"
   },
-  "fieldElevM": 2480.41,
+  "fieldElevM": 2937.51,
   "pilot": {
-    "n": 0,
-    "e": 0
+    "n": -1222,
+    "e": 314
   },
   "home": {
-    "n": 0,
-    "e": 0
+    "n": -1222,
+    "e": 314
   },
   "starts": [
     {
       "id": "pad",
       "name": "On the pad",
-      "n": 8,
-      "e": 1.5,
+      "n": -1214,
+      "e": 315.5,
       "yawDeg": 0,
       "aglM": 0
     },
     {
       "id": "launch",
       "name": "In your hand",
-      "n": 0.6,
-      "e": 0.45,
+      "n": -1221.4,
+      "e": 314.45,
       "yawDeg": 0,
       "aglM": 1.7
     },
     {
       "id": "air",
       "name": "In the air, 60 m",
-      "n": -200,
-      "e": 120,
+      "n": -1422,
+      "e": 434,
       "yawDeg": 270,
       "aglM": 60,
       "speedMs": 16
     }
   ],
   "obstacles": [],
-  "gates": []
+  "gates": [],
+  "sites": [
+    {
+      "id": "valley-floor",
+      "name": "Valley floor",
+      "n": 2266,
+      "e": -358
+    },
+    {
+      "id": "southwest-rim",
+      "name": "Southwest rim",
+      "n": -2022,
+      "e": -2758
+    },
+    {
+      "id": "southeast-summit",
+      "name": "Southeast summit",
+      "n": -2598,
+      "e": 1498
+    }
+  ]
 }

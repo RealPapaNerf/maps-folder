@@ -16,7 +16,7 @@
       "easting": 327512.25,
       "northing": 4124933.67
     },
-    "datumElevM": 1679.82
+    "datumElevM": 2014.93
   },
   "grid": {
     "cols": 769,
@@ -43,42 +43,62 @@
     "file": "color.jpg",
     "coverage": "grid"
   },
-  "fieldElevM": 1679.82,
+  "fieldElevM": 2014.93,
   "pilot": {
-    "n": 0,
-    "e": 0
+    "n": 250,
+    "e": 346
   },
   "home": {
-    "n": 0,
-    "e": 0
+    "n": 250,
+    "e": 346
   },
   "starts": [
     {
       "id": "pad",
       "name": "On the pad",
-      "n": 8,
-      "e": 1.5,
+      "n": 258,
+      "e": 347.5,
       "yawDeg": 0,
       "aglM": 0
     },
     {
       "id": "launch",
       "name": "In your hand",
-      "n": 0.6,
-      "e": 0.45,
+      "n": 250.6,
+      "e": 346.45,
       "yawDeg": 0,
       "aglM": 1.7
     },
     {
       "id": "air",
       "name": "In the air, 60 m",
-      "n": -200,
-      "e": 120,
+      "n": 50,
+      "e": 466,
       "yawDeg": 270,
       "aglM": 60,
       "speedMs": 16
     }
   ],
   "obstacles": [],
-  "gates": []
+  "gates": [],
+  "sites": [
+    {
+      "id": "canyon-mouth",
+      "name": "Canyon mouth",
+      "n": -2470,
+      "e": -1830
+    },
+    {
+      "id": "northwest-rim",
+      "name": "Northwest rim",
+      "n": 1786,
+      "e": -1382
+    },
+    {
+      "id": "east-rim",
+      "name": "East rim",
+      "n": 474,
+      "e": 1562
+    }
+  ]
 }

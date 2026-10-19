@@ -16,7 +16,7 @@
       "easting": 448762.22,
       "northing": 4466191.33
     },
-    "datumElevM": 1610.88
+    "datumElevM": 1600.13
   },
   "grid": {
     "cols": 769,
@@ -43,42 +43,56 @@
     "file": "color.jpg",
     "coverage": "grid"
   },
-  "fieldElevM": 1610.88,
+  "fieldElevM": 1600.13,
   "pilot": {
-    "n": 0,
-    "e": 0
+    "n": 58,
+    "e": 282
   },
   "home": {
-    "n": 0,
-    "e": 0
+    "n": 58,
+    "e": 282
   },
   "starts": [
     {
       "id": "pad",
       "name": "On the pad",
-      "n": 8,
-      "e": 1.5,
+      "n": 66,
+      "e": 283.5,
       "yawDeg": 0,
       "aglM": 0
     },
     {
       "id": "launch",
       "name": "In your hand",
-      "n": 0.6,
-      "e": 0.45,
+      "n": 58.6,
+      "e": 282.45,
       "yawDeg": 0,
       "aglM": 1.7
     },
     {
       "id": "air",
       "name": "In the air, 60 m",
-      "n": -200,
-      "e": 120,
+      "n": -142,
+      "e": 402,
       "yawDeg": 270,
       "aglM": 60,
       "speedMs": 16
     }
   ],
   "obstacles": [],
-  "gates": []
+  "gates": [],
+  "sites": [
+    {
+      "id": "canyon-floor-west",
+      "name": "Canyon floor, west",
+      "n": -1190,
+      "e": -838
+    },
+    {
+      "id": "canyon-floor-east",
+      "name": "Canyon floor, east",
+      "n": 410,
+      "e": 858
+    }
+  ]
 }

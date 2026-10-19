@@ -14,9 +14,9 @@
         3072
       ],
       "cell": 4,
-      "fieldElevM": 1610.88,
+      "fieldElevM": 1600.13,
       "reliefM": 1115,
-      "bytes": 2588006,
+      "bytes": 2588264,
       "hasColor": true,
       "attribution": "USGS 3D Elevation Program. USGS National Agriculture Imagery Program (public domain)"
     },
@@ -31,9 +31,9 @@
         6144
       ],
       "cell": 8,
-      "fieldElevM": 2283.83,
+      "fieldElevM": 2760.71,
       "reliefM": 947,
-      "bytes": 3042449,
+      "bytes": 3042818,
       "hasColor": true,
       "attribution": "USGS 3D Elevation Program. USGS National Agriculture Imagery Program (public domain)"
     },
@@ -65,9 +65,9 @@
         6144
       ],
       "cell": 8,
-      "fieldElevM": 2362.62,
+      "fieldElevM": 2384.56,
       "reliefM": 1034,
-      "bytes": 3009935,
+      "bytes": 3010184,
       "hasColor": true,
       "attribution": "USGS 3D Elevation Program. USGS National Agriculture Imagery Program (public domain)"
     },
@@ -82,9 +82,9 @@
         6144
       ],
       "cell": 8,
-      "fieldElevM": 2700.6,
+      "fieldElevM": 2658.27,
       "reliefM": 1529,
-      "bytes": 2984979,
+      "bytes": 2985336,
       "hasColor": true,
       "attribution": "USGS 3D Elevation Program. USGS National Agriculture Imagery Program (public domain)"
     },
@@ -99,9 +99,9 @@
         6144
       ],
       "cell": 8,
-      "fieldElevM": 2480.41,
+      "fieldElevM": 2937.51,
       "reliefM": 1125,
-      "bytes": 3109969,
+      "bytes": 3110336,
       "hasColor": true,
       "attribution": "USGS 3D Elevation Program. USGS National Agriculture Imagery Program (public domain)"
     },
@@ -116,9 +116,9 @@
         3072
       ],
       "cell": 4,
-      "fieldElevM": 1791.26,
+      "fieldElevM": 2247.37,
       "reliefM": 1027,
-      "bytes": 2794984,
+      "bytes": 2795230,
       "hasColor": true,
       "attribution": "USGS 3D Elevation Program. USGS National Agriculture Imagery Program (public domain)"
     },
@@ -133,9 +133,9 @@
         6144
       ],
       "cell": 8,
-      "fieldElevM": 3573.21,
+      "fieldElevM": 3133.02,
       "reliefM": 1657,
-      "bytes": 2624638,
+      "bytes": 2624978,
       "hasColor": true,
       "attribution": "USGS 3D Elevation Program. USGS National Agriculture Imagery Program (public domain)"
     },
@@ -150,9 +150,9 @@
         6144
       ],
       "cell": 8,
-      "fieldElevM": 1208.77,
+      "fieldElevM": 1213.35,
       "reliefM": 1377,
-      "bytes": 3172455,
+      "bytes": 3172817,
       "hasColor": true,
       "attribution": "USGS 3D Elevation Program. USGS National Agriculture Imagery Program (public domain)"
     },
@@ -167,9 +167,9 @@
         6144
       ],
       "cell": 8,
-      "fieldElevM": 1679.82,
+      "fieldElevM": 2014.93,
       "reliefM": 926,
-      "bytes": 3092369,
+      "bytes": 3092708,
       "hasColor": true,
       "attribution": "USGS 3D Elevation Program. USGS National Agriculture Imagery Program (public domain)"
     }

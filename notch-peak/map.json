@@ -16,7 +16,7 @@
       "easting": 292011.35,
       "northing": 4334582.06
     },
-    "datumElevM": 2700.6
+    "datumElevM": 2658.27
   },
   "grid": {
     "cols": 769,
@@ -43,21 +43,21 @@
     "file": "color.jpg",
     "coverage": "grid"
   },
-  "fieldElevM": 2700.6,
+  "fieldElevM": 2658.27,
   "pilot": {
-    "n": 0,
-    "e": 0
+    "n": 2426,
+    "e": 442
   },
   "home": {
-    "n": 0,
-    "e": 0
+    "n": 2426,
+    "e": 442
   },
   "starts": [
     {
       "id": "pad",
       "name": "On the pad",
-      "n": 8,
-      "e": 1.5,
+      "n": 2434,
+      "e": 443.5,
       "yawDeg": 0,
       "aglM": 0,
       "anchor": "pilot"
@@ -65,8 +65,8 @@
     {
       "id": "launch",
       "name": "In your hand",
-      "n": 0.6,
-      "e": 0.45,
+      "n": 2426.6,
+      "e": 442.45,
       "yawDeg": 0,
       "aglM": 1.7,
       "anchor": "pilot"
@@ -74,8 +74,8 @@
     {
       "id": "air",
       "name": "In the air, 60 m",
-      "n": -200,
-      "e": 120,
+      "n": 2226,
+      "e": 562,
       "yawDeg": 270,
       "aglM": 60,
       "speedMs": 16,
@@ -83,5 +83,25 @@
     }
   ],
   "obstacles": [],
-  "gates": []
+  "gates": [],
+  "sites": [
+    {
+      "id": "desert-floor",
+      "name": "Desert floor",
+      "n": -2822,
+      "e": -2822
+    },
+    {
+      "id": "cliff-top",
+      "name": "Cliff top",
+      "n": 2810,
+      "e": -390
+    },
+    {
+      "id": "northeast-plateau",
+      "name": "Northeast plateau",
+      "n": 2330,
+      "e": 1338
+    }
+  ]
 }
